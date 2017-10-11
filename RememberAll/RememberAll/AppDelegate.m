@@ -20,8 +20,8 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-    UIViewController * TabBarController = [[UITabBarController alloc] init];
-    self.window.rootViewController = TabBarController;
+   // UIViewController * TabBarController = [[UITabBarController alloc] init];
+   // self.window.rootViewController = TabBarController;
 }
 
 
@@ -30,10 +30,10 @@
     [GMSServices provideAPIKey:@"AIzaSyBWHw5Ij85CjOBv51ZfXyOE-MOJNxy52uw"];
     [GMSPlacesClient provideAPIKey:@"AIzaSyBWHw5Ij85CjOBv51ZfXyOE-MOJNxy52uw"];
     
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[UIViewController alloc] init];
-    [self.window makeKeyAndVisible];
+   // self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+   // self.window.backgroundColor = [UIColor whiteColor];
+   // self.window.rootViewController = [[UIViewController alloc] init];
+   // [self.window makeKeyAndVisible];
 
     return YES;
 }
