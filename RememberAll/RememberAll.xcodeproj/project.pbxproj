@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB4A833C1F8E620A0076B673 /* SetViewController in Resources */ = {isa = PBXBuildFile; fileRef = BB4A833B1F8E620A0076B673 /* SetViewController */; };
-		BB4A833E1F8E62350076B673 /* TabBarController in Resources */ = {isa = PBXBuildFile; fileRef = BB4A833D1F8E62340076B673 /* TabBarController */; };
-		BB4A83421F8E657F0076B673 /* ListViewController in Resources */ = {isa = PBXBuildFile; fileRef = BB4A83411F8E657E0076B673 /* ListViewController */; };
+		BB02C0B21F8E72E500344806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02C0B01F8E72E400344806 /* ViewController.m */; };
+		BB02C0B51F8E735400344806 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02C0B41F8E735400344806 /* MapViewController.m */; };
+		BB02C0B81F8E736800344806 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02C0B71F8E736800344806 /* InfoViewController.m */; };
+		BB02C0BB1F8E738300344806 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02C0BA1F8E738300344806 /* ListViewController.m */; };
+		BB02C0BE1F8E73AA00344806 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02C0BC1F8E73A900344806 /* SetViewController.m */; };
 		BB4F9FE01F87B6E400108C3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F9FDF1F87B6E400108C3C /* AppDelegate.m */; };
 		BB4F9FE91F87B6E400108C3C /* RememberAll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB4F9FE71F87B6E400108C3C /* RememberAll.xcdatamodeld */; };
 		BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEA1F87B6E400108C3C /* Assets.xcassets */; };
 		BB4F9FEE1F87B6E400108C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEC1F87B6E400108C3C /* LaunchScreen.storyboard */; };
 		BB4F9FF11F87B6E400108C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F9FF01F87B6E400108C3C /* main.m */; };
-		BB6CC7301F8E609C00947510 /* MapViewController in Resources */ = {isa = PBXBuildFile; fileRef = BB6CC72F1F8E609C00947510 /* MapViewController */; };
-		BB6CC7321F8E60BD00947510 /* InfoViewController in Resources */ = {isa = PBXBuildFile; fileRef = BB6CC7311F8E60BD00947510 /* InfoViewController */; };
 		D3E773F92B9A6BB6E8E7ECF5 /* Pods_RememberAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B969F91F90D3A392AE5A021 /* Pods-RememberAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.debug.xcconfig"; sourceTree = "<group>"; };
 		552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RememberAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB4A833B1F8E620A0076B673 /* SetViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SetViewController; sourceTree = "<group>"; };
-		BB4A833D1F8E62340076B673 /* TabBarController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TabBarController; sourceTree = "<group>"; };
-		BB4A83411F8E657E0076B673 /* ListViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ListViewController; sourceTree = "<group>"; };
+		BB02C0B01F8E72E400344806 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = RememberAll/TabBarController/ViewController.m; sourceTree = "<group>"; };
+		BB02C0B11F8E72E500344806 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = RememberAll/TabBarController/ViewController.h; sourceTree = "<group>"; };
+		BB02C0B31F8E735400344806 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = RememberAll/MapViewController/MapViewController.h; sourceTree = "<group>"; };
+		BB02C0B41F8E735400344806 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = RememberAll/MapViewController/MapViewController.m; sourceTree = "<group>"; };
+		BB02C0B61F8E736800344806 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = RememberAll/InfoViewController/InfoViewController.h; sourceTree = "<group>"; };
+		BB02C0B71F8E736800344806 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = RememberAll/InfoViewController/InfoViewController.m; sourceTree = "<group>"; };
+		BB02C0B91F8E738300344806 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = RememberAll/ListViewController/ListViewController.h; sourceTree = "<group>"; };
+		BB02C0BA1F8E738300344806 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = RememberAll/ListViewController/ListViewController.m; sourceTree = "<group>"; };
+		BB02C0BC1F8E73A900344806 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetViewController.m; path = RememberAll/SetViewController/SetViewController.m; sourceTree = "<group>"; };
+		BB02C0BD1F8E73A900344806 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetViewController.h; path = RememberAll/SetViewController/SetViewController.h; sourceTree = "<group>"; };
 		BB4F9FDB1F87B6E400108C3C /* RememberAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4F9FDE1F87B6E400108C3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB4F9FDF1F87B6E400108C3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,8 +41,6 @@
 		BB4F9FED1F87B6E400108C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB4F9FEF1F87B6E400108C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB4F9FF01F87B6E400108C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB6CC72F1F8E609C00947510 /* MapViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MapViewController; sourceTree = "<group>"; };
-		BB6CC7311F8E60BD00947510 /* InfoViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = InfoViewController; sourceTree = "<group>"; };
 		ED830BA6BEB727997D805D42 /* Pods-RememberAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +59,16 @@
 		BB4F9FD21F87B6E400108C3C = {
 			isa = PBXGroup;
 			children = (
+				BB02C0BD1F8E73A900344806 /* SetViewController.h */,
+				BB02C0BC1F8E73A900344806 /* SetViewController.m */,
+				BB02C0B91F8E738300344806 /* ListViewController.h */,
+				BB02C0BA1F8E738300344806 /* ListViewController.m */,
+				BB02C0B61F8E736800344806 /* InfoViewController.h */,
+				BB02C0B71F8E736800344806 /* InfoViewController.m */,
+				BB02C0B31F8E735400344806 /* MapViewController.h */,
+				BB02C0B41F8E735400344806 /* MapViewController.m */,
+				BB02C0B11F8E72E500344806 /* ViewController.h */,
+				BB02C0B01F8E72E400344806 /* ViewController.m */,
 				BB4F9FDD1F87B6E400108C3C /* RememberAll */,
 				C0E0EF23C16977B75744C161 /* Frameworks */,
 				BB4F9FDC1F87B6E400108C3C /* Products */,
@@ -73,11 +88,6 @@
 			children = (
 				BB4F9FDE1F87B6E400108C3C /* AppDelegate.h */,
 				BB4F9FDF1F87B6E400108C3C /* AppDelegate.m */,
-				BB4A833D1F8E62340076B673 /* TabBarController */,
-				BB6CC72F1F8E609C00947510 /* MapViewController */,
-				BB6CC7311F8E60BD00947510 /* InfoViewController */,
-				BB4A83411F8E657E0076B673 /* ListViewController */,
-				BB4A833B1F8E620A0076B673 /* SetViewController */,
 				BB4F9FEA1F87B6E400108C3C /* Assets.xcassets */,
 				BB4F9FEC1F87B6E400108C3C /* LaunchScreen.storyboard */,
 				BB4F9FE71F87B6E400108C3C /* RememberAll.xcdatamodeld */,
@@ -167,13 +177,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB4A833E1F8E62350076B673 /* TabBarController in Resources */,
-				BB4A833C1F8E620A0076B673 /* SetViewController in Resources */,
-				BB4A83421F8E657F0076B673 /* ListViewController in Resources */,
 				BB4F9FEE1F87B6E400108C3C /* LaunchScreen.storyboard in Resources */,
-				BB6CC7321F8E60BD00947510 /* InfoViewController in Resources */,
 				BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */,
-				BB6CC7301F8E609C00947510 /* MapViewController in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB4F9FE91F87B6E400108C3C /* RememberAll.xcdatamodeld in Sources */,
+				BB02C0BE1F8E73AA00344806 /* SetViewController.m in Sources */,
 				BB4F9FF11F87B6E400108C3C /* main.m in Sources */,
+				BB02C0BB1F8E738300344806 /* ListViewController.m in Sources */,
+				BB02C0B81F8E736800344806 /* InfoViewController.m in Sources */,
+				BB02C0B51F8E735400344806 /* MapViewController.m in Sources */,
+				BB02C0B21F8E72E500344806 /* ViewController.m in Sources */,
 				BB4F9FE01F87B6E400108C3C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
