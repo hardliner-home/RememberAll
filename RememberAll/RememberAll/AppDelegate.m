@@ -10,9 +10,9 @@
 #import "ViewController.h"
 
 
-//@import GoogleMaps;
-//@import GooglePlaces;
-//@import GooglePlacePicker;
+@import GoogleMaps;
+@import GooglePlaces;
+@import GooglePlacePicker;
 
 @interface AppDelegate ()
 
@@ -28,8 +28,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-   // [GMSServices provideAPIKey:@"AIzaSyBWHw5Ij85CjOBv51ZfXyOE-MOJNxy52uw"];
-   // [GMSPlacesClient provideAPIKey:@"AIzaSyBWHw5Ij85CjOBv51ZfXyOE-MOJNxy52uw"];
+    [GMSServices provideAPIKey:@"AIzaSyBWHw5Ij85CjOBv51ZfXyOE-MOJNxy52uw"];
+    [GMSPlacesClient provideAPIKey:@"AIzaSyBWHw5Ij85CjOBv51ZfXyOE-MOJNxy52uw"];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];

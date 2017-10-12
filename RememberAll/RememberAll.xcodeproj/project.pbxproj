@@ -56,19 +56,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB0EA50A1F8EB81E00F3FDA3 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				BB02C0B11F8E72E500344806 /* ViewController.h */,
+				BB02C0B01F8E72E400344806 /* ViewController.m */,
+			);
+			name = TabBarController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BB0EA50B1F8EB85800F3FDA3 /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB02C0B31F8E735400344806 /* MapViewController.h */,
+				BB02C0B41F8E735400344806 /* MapViewController.m */,
+			);
+			name = MapViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BB0EA50E1F8EB8BD00F3FDA3 /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB02C0B61F8E736800344806 /* InfoViewController.h */,
+				BB02C0B71F8E736800344806 /* InfoViewController.m */,
+			);
+			name = InfoViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BB0EA50F1F8EB8E200F3FDA3 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB02C0B91F8E738300344806 /* ListViewController.h */,
+				BB02C0BA1F8E738300344806 /* ListViewController.m */,
+			);
+			name = ListViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BB0EA5101F8EB8F900F3FDA3 /* SetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB02C0BC1F8E73A900344806 /* SetViewController.m */,
+				BB02C0BD1F8E73A900344806 /* SetViewController.h */,
+			);
+			name = SetViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		BB4F9FD21F87B6E400108C3C = {
 			isa = PBXGroup;
 			children = (
-				BB02C0BD1F8E73A900344806 /* SetViewController.h */,
-				BB02C0BC1F8E73A900344806 /* SetViewController.m */,
-				BB02C0B91F8E738300344806 /* ListViewController.h */,
-				BB02C0BA1F8E738300344806 /* ListViewController.m */,
-				BB02C0B61F8E736800344806 /* InfoViewController.h */,
-				BB02C0B71F8E736800344806 /* InfoViewController.m */,
-				BB02C0B31F8E735400344806 /* MapViewController.h */,
-				BB02C0B41F8E735400344806 /* MapViewController.m */,
-				BB02C0B11F8E72E500344806 /* ViewController.h */,
-				BB02C0B01F8E72E400344806 /* ViewController.m */,
 				BB4F9FDD1F87B6E400108C3C /* RememberAll */,
 				C0E0EF23C16977B75744C161 /* Frameworks */,
 				BB4F9FDC1F87B6E400108C3C /* Products */,
@@ -88,6 +128,11 @@
 			children = (
 				BB4F9FDE1F87B6E400108C3C /* AppDelegate.h */,
 				BB4F9FDF1F87B6E400108C3C /* AppDelegate.m */,
+				BB0EA50A1F8EB81E00F3FDA3 /* TabBarController */,
+				BB0EA50B1F8EB85800F3FDA3 /* MapViewController */,
+				BB0EA50E1F8EB8BD00F3FDA3 /* InfoViewController */,
+				BB0EA50F1F8EB8E200F3FDA3 /* ListViewController */,
+				BB0EA5101F8EB8F900F3FDA3 /* SetViewController */,
 				BB4F9FEA1F87B6E400108C3C /* Assets.xcassets */,
 				BB4F9FEC1F87B6E400108C3C /* LaunchScreen.storyboard */,
 				BB4F9FE71F87B6E400108C3C /* RememberAll.xcdatamodeld */,
