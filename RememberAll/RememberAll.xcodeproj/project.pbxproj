@@ -17,6 +17,10 @@
 		BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEA1F87B6E400108C3C /* Assets.xcassets */; };
 		BB4F9FEE1F87B6E400108C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEC1F87B6E400108C3C /* LaunchScreen.storyboard */; };
 		BB4F9FF11F87B6E400108C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F9FF01F87B6E400108C3C /* main.m */; };
+		BBDDC8A21F8F67D900AA828B /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDDC89E1F8F67D800AA828B /* info.png */; };
+		BBDDC8A31F8F67D900AA828B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDDC89F1F8F67D900AA828B /* map.png */; };
+		BBDDC8A41F8F67D900AA828B /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDDC8A01F8F67D900AA828B /* set.png */; };
+		BBDDC8A51F8F67D900AA828B /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDDC8A11F8F67D900AA828B /* list.png */; };
 		D3E773F92B9A6BB6E8E7ECF5 /* Pods_RememberAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +45,10 @@
 		BB4F9FED1F87B6E400108C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB4F9FEF1F87B6E400108C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB4F9FF01F87B6E400108C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBDDC89E1F8F67D800AA828B /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = RememberAll/info.png; sourceTree = "<group>"; };
+		BBDDC89F1F8F67D900AA828B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = RememberAll/map.png; sourceTree = "<group>"; };
+		BBDDC8A01F8F67D900AA828B /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = set.png; path = RememberAll/set.png; sourceTree = "<group>"; };
+		BBDDC8A11F8F67D900AA828B /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = RememberAll/list.png; sourceTree = "<group>"; };
 		ED830BA6BEB727997D805D42 /* Pods-RememberAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +117,10 @@
 		BB4F9FD21F87B6E400108C3C = {
 			isa = PBXGroup;
 			children = (
+				BBDDC89F1F8F67D900AA828B /* map.png */,
+				BBDDC89E1F8F67D800AA828B /* info.png */,
+				BBDDC8A11F8F67D900AA828B /* list.png */,
+				BBDDC8A01F8F67D900AA828B /* set.png */,
 				BB4F9FDD1F87B6E400108C3C /* RememberAll */,
 				C0E0EF23C16977B75744C161 /* Frameworks */,
 				BB4F9FDC1F87B6E400108C3C /* Products */,
@@ -224,6 +236,10 @@
 			files = (
 				BB4F9FEE1F87B6E400108C3C /* LaunchScreen.storyboard in Resources */,
 				BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */,
+				BBDDC8A21F8F67D900AA828B /* info.png in Resources */,
+				BBDDC8A41F8F67D900AA828B /* set.png in Resources */,
+				BBDDC8A31F8F67D900AA828B /* map.png in Resources */,
+				BBDDC8A51F8F67D900AA828B /* list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
