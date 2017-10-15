@@ -14,7 +14,6 @@
 
 //@interface UIImage {
 //
-//
 //}
 //@end
 
@@ -31,17 +30,17 @@
     
     NSArray* TabBarControllers = @[vc1, vc2, vc3, vc4];
     
-    vc1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:nil
-                      /*[UIImage imageNamed:@"map.png"]*/
+    vc1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image://nil
+                      [UIImage imageNamed:@"map.png"]
                                                      tag:1];
-    vc2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Information" image:nil
-                      /*[UIImage imageNamed:@"info.png"]*/
+    vc2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Information" image://nil
+                      [UIImage imageNamed:@"info.png"]
                                                      tag:2];
-    vc3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Listing" image:nil
-                      /*[UIImage imageNamed:@"list.png"]*/
+    vc3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Listing" image://nil
+                      [UIImage imageNamed:@"list.png"]
                                                      tag:3];
-    vc4.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Settings" image:nil
-                      /*[UIImage imageNamed:@"set.png"]*/
+    vc4.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Settings" image://nil
+                      [UIImage imageNamed:@"set.png"]
                                                      tag:4];
     
     [self setViewControllers:TabBarControllers];

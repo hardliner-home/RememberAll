@@ -17,10 +17,11 @@
 		BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEA1F87B6E400108C3C /* Assets.xcassets */; };
 		BB4F9FEE1F87B6E400108C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEC1F87B6E400108C3C /* LaunchScreen.storyboard */; };
 		BB4F9FF11F87B6E400108C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F9FF01F87B6E400108C3C /* main.m */; };
-		BBDDC8A21F8F67D900AA828B /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDDC89E1F8F67D800AA828B /* info.png */; };
-		BBDDC8A31F8F67D900AA828B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDDC89F1F8F67D900AA828B /* map.png */; };
-		BBDDC8A41F8F67D900AA828B /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDDC8A01F8F67D900AA828B /* set.png */; };
-		BBDDC8A51F8F67D900AA828B /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDDC8A11F8F67D900AA828B /* list.png */; };
+		BBDDC8AC1F90B46B00AA828B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDDC8AB1F90B46B00AA828B /* QuartzCore.framework */; };
+		BBF571101F93290400A18161 /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF5710F1F93290400A18161 /* set.png */; };
+		BBF571141F93371300A18161 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF571111F93371200A18161 /* info.png */; };
+		BBF571151F93371300A18161 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF571121F93371200A18161 /* list.png */; };
+		BBF571161F93371300A18161 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF571131F93371300A18161 /* map.png */; };
 		D3E773F92B9A6BB6E8E7ECF5 /* Pods_RememberAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,10 +46,11 @@
 		BB4F9FED1F87B6E400108C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB4F9FEF1F87B6E400108C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB4F9FF01F87B6E400108C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBDDC89E1F8F67D800AA828B /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = RememberAll/info.png; sourceTree = "<group>"; };
-		BBDDC89F1F8F67D900AA828B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = RememberAll/map.png; sourceTree = "<group>"; };
-		BBDDC8A01F8F67D900AA828B /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = set.png; path = RememberAll/set.png; sourceTree = "<group>"; };
-		BBDDC8A11F8F67D900AA828B /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = RememberAll/list.png; sourceTree = "<group>"; };
+		BBDDC8AB1F90B46B00AA828B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BBF5710F1F93290400A18161 /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = set.png; path = RememberAll/set.png; sourceTree = "<group>"; };
+		BBF571111F93371200A18161 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = RememberAll/info.png; sourceTree = "<group>"; };
+		BBF571121F93371200A18161 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = RememberAll/list.png; sourceTree = "<group>"; };
+		BBF571131F93371300A18161 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = RememberAll/map.png; sourceTree = "<group>"; };
 		ED830BA6BEB727997D805D42 /* Pods-RememberAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDDC8AC1F90B46B00AA828B /* QuartzCore.framework in Frameworks */,
 				D3E773F92B9A6BB6E8E7ECF5 /* Pods_RememberAll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,10 +120,10 @@
 		BB4F9FD21F87B6E400108C3C = {
 			isa = PBXGroup;
 			children = (
-				BBDDC89F1F8F67D900AA828B /* map.png */,
-				BBDDC89E1F8F67D800AA828B /* info.png */,
-				BBDDC8A11F8F67D900AA828B /* list.png */,
-				BBDDC8A01F8F67D900AA828B /* set.png */,
+				BBF571111F93371200A18161 /* info.png */,
+				BBF571121F93371200A18161 /* list.png */,
+				BBF571131F93371300A18161 /* map.png */,
+				BBF5710F1F93290400A18161 /* set.png */,
 				BB4F9FDD1F87B6E400108C3C /* RememberAll */,
 				C0E0EF23C16977B75744C161 /* Frameworks */,
 				BB4F9FDC1F87B6E400108C3C /* Products */,
@@ -158,6 +161,7 @@
 		C0E0EF23C16977B75744C161 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BBDDC8AB1F90B46B00AA828B /* QuartzCore.framework */,
 				552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */,
 			);
 			name = Frameworks;
@@ -234,12 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF571161F93371300A18161 /* map.png in Resources */,
+				BBF571101F93290400A18161 /* set.png in Resources */,
+				BBF571151F93371300A18161 /* list.png in Resources */,
 				BB4F9FEE1F87B6E400108C3C /* LaunchScreen.storyboard in Resources */,
 				BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */,
-				BBDDC8A21F8F67D900AA828B /* info.png in Resources */,
-				BBDDC8A41F8F67D900AA828B /* set.png in Resources */,
-				BBDDC8A31F8F67D900AA828B /* map.png in Resources */,
-				BBDDC8A51F8F67D900AA828B /* list.png in Resources */,
+				BBF571141F93371300A18161 /* info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

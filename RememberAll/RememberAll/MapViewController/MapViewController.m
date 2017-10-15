@@ -9,21 +9,23 @@
 #import "MapViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 
+
 @implementation UIViewController (MapViewController)
 
 @end
 
 @implementation MapViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
     // Create a GMSCameraPosition that tells the map to display the
-    // coordinate -33.86,151.20 at zoom level 6.
+    // coordinate -33.86,151.20 at zoom level.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
                                                             longitude:151.20
-                                                                 zoom:15];
+                                                                 zoom:20];
     
     GMSMapView *mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView.myLocationEnabled = YES;
