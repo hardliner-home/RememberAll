@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface InfoViewController : UIViewController {
-    
     UIWebView * webView;
-    
 }
 
 @end

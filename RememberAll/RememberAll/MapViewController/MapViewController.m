@@ -25,10 +25,12 @@
     // coordinate -33.86,151.20 at zoom level.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
                                                             longitude:151.20
-                                                                 zoom:20];
+                                                                 zoom:5];
     
     GMSMapView *mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView.myLocationEnabled = YES;
+    NSLog(@"User's location: %@", mapView.myLocation);
+ 
     self.view = mapView;
     
     // Creates a marker in the center of the map.
@@ -37,7 +39,7 @@
     marker.title = @"Sydney";
     marker.snippet = @"Australia";
     marker.map = mapView;
-
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
