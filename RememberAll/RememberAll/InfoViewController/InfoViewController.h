@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InfoViewController : UIViewController {
-    UIWebView * webView;
-}
+@interface InfoViewController : UIViewController 
 
 @end

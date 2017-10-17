@@ -28,6 +28,7 @@
 /* Begin PBXFileReference section */
 		3B969F91F90D3A392AE5A021 /* Pods-RememberAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.debug.xcconfig"; sourceTree = "<group>"; };
 		552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RememberAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		591F4BE98252A2106B9DF07F /* Pods-RememberAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.release.xcconfig"; sourceTree = "<group>"; };
 		BB02C0B01F8E72E400344806 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = RememberAll/TabBarController/ViewController.m; sourceTree = "<group>"; };
 		BB02C0B11F8E72E500344806 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = RememberAll/TabBarController/ViewController.h; sourceTree = "<group>"; };
 		BB02C0B31F8E735400344806 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = RememberAll/MapViewController/MapViewController.h; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		BBF571111F93371200A18161 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = RememberAll/info.png; sourceTree = "<group>"; };
 		BBF571121F93371200A18161 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = RememberAll/list.png; sourceTree = "<group>"; };
 		BBF571131F93371300A18161 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = RememberAll/map.png; sourceTree = "<group>"; };
+		C74AF14CC42D12A494AB2480 /* Pods-RememberAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.debug.xcconfig"; sourceTree = "<group>"; };
 		ED830BA6BEB727997D805D42 /* Pods-RememberAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33FE887654E35D8D84E2BA7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C74AF14CC42D12A494AB2480 /* Pods-RememberAll.debug.xcconfig */,
+				591F4BE98252A2106B9DF07F /* Pods-RememberAll.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB0EA50A1F8EB81E00F3FDA3 /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +121,8 @@
 		BB0EA5101F8EB8F900F3FDA3 /* SetViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BB02C0BC1F8E73A900344806 /* SetViewController.m */,
 				BB02C0BD1F8E73A900344806 /* SetViewController.h */,
+				BB02C0BC1F8E73A900344806 /* SetViewController.m */,
 			);
 			name = SetViewController;
 			path = ..;
@@ -127,6 +138,7 @@
 				BB4F9FDD1F87B6E400108C3C /* RememberAll */,
 				C0E0EF23C16977B75744C161 /* Frameworks */,
 				BB4F9FDC1F87B6E400108C3C /* Products */,
+				33FE887654E35D8D84E2BA7A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -367,6 +379,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -422,6 +435,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

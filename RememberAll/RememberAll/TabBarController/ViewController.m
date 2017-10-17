@@ -12,17 +12,11 @@
 
 @end
 
-//@interface UIImage {
-//
-//}
-//@end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+
     MapViewController* vc1 = [[MapViewController alloc] init];
     InfoViewController* vc2 = [[InfoViewController alloc] init];
     ListViewController* vc3 = [[ListViewController alloc] init];
@@ -30,16 +24,16 @@
     
     NSArray* TabBarControllers = @[vc1, vc2, vc3, vc4];
     
-    vc1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image://nil
+    vc1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:
                       [UIImage imageNamed:@"map.png"]
                                                      tag:1];
-    vc2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Information" image://nil
+    vc2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Information" image:
                       [UIImage imageNamed:@"info.png"]
                                                      tag:2];
-    vc3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Listing" image://nil
+    vc3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Listing" image:
                       [UIImage imageNamed:@"list.png"]
                                                      tag:3];
-    vc4.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Settings" image://nil
+    vc4.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Settings" image:
                       [UIImage imageNamed:@"set.png"]
                                                      tag:4];
     
