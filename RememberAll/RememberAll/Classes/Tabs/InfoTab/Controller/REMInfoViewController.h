@@ -1,5 +1,5 @@
 //
-//  ViewController+SetViewController.h
+//  REMInfoViewController.h
 //  RememberAll
 //
 //  Created by Vladimir Shabanov on 07.10.17.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SetViewController : UIViewController
+@interface REMInfoViewController : UIViewController 
 
 @end
-

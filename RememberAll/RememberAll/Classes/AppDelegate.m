@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-
+#import "REMTabBarController.h"
 
 @import GoogleMaps;
 @import GooglePlaces;
@@ -27,12 +26,11 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[ViewController alloc] init];
+    self.window.rootViewController = [[REMTabBarController alloc] init];
     
     [self.window makeKeyAndVisible];
 
     return YES;
 }
-
 
 @end

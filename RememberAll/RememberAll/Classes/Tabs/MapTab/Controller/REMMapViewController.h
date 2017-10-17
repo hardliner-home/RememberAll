@@ -1,5 +1,5 @@
 //
-//  MapViewController.h
+//  REMMapViewController.h
 //  RememberAll
 //
 //  Created by Vladimir Shabanov on 07.10.17.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListViewController : UIViewController
+@interface REMMapViewController : UIViewController
 
 @end
-
 
 
