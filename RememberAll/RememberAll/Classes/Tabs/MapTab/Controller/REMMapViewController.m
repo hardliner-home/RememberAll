@@ -21,17 +21,12 @@
 
 @implementation REMMapViewController
 
-@synthesize slider;
-
-
-
-
 @dynamic view;
 
 - (void)loadView {
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:47.23
                                                             longitude:38.89
-                                                                 zoom:slider.value];
+                                                                 zoom:10.f];
     
     self.view = [[REMMapTabView alloc] initWithCamera:camera];
 }
@@ -43,28 +38,29 @@
     
     
     CGRect frame = CGRectMake(18.0, 480.0, 200.0, 40.0);
-    slider = [[UISlider alloc] initWithFrame:frame];
-    [slider addTarget:self action:@selector(sliderAction:) forControlEvents:UIControlEventValueChanged];
-    [slider setBackgroundColor:[UIColor clearColor]];
-    slider.minimumValue = 10;
-    slider.maximumValue = 20;
-    slider.continuous = YES;
-    slider.value = 10;
-    [self.view addSubview:slider];
+    self.slider = [[UISlider alloc] initWithFrame:frame];
+    [self.slider addTarget:self action:@selector(sliderAction:) forControlEvents:UIControlEventValueChanged];
+    [self.slider setBackgroundColor:[UIColor clearColor]];
+    self.slider.minimumValue = 10;
+    self.slider.maximumValue = 20;
+    self.slider.continuous = YES;
+    [self.view addSubview:self.slider];
     
 }
 
--(IBAction) sliderAction:(id) sender{
-    slider.value = slider.value;
-    NSLog(@"%i", slider.value);
+- (void)sliderAction:(id)sender {
+    NSLog(@"%f", self.slider.value);
+    
+    [self.view.mapView animateToZoom:self.slider.value];
 }
 
--(void)viewDidAppear:(BOOL)animated {
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     
-    locationManager =[[CLLocationManager alloc] init];
-    [locationManager requestAlwaysAuthorization];
+    _locationManager = [[CLLocationManager alloc] init];
+    [_locationManager requestAlwaysAuthorization];
     
-    NSLog(@"latitude %lf longitude %lf", locationManager.location.coordinate.latitude, locationManager.location.coordinate.longitude);
+    NSLog(@"latitude %lf longitude %lf", _locationManager.location.coordinate.latitude, _locationManager.location.coordinate.longitude);
 }
 
 @end

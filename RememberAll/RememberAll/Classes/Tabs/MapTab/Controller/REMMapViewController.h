@@ -12,12 +12,10 @@
 
 
 @interface REMMapViewController : UIViewController {
-    CLLocationManager *locationManager;
-    UISlider *slider;
+    CLLocationManager *_locationManager;
 }
 
-@property(nonatomic,retain) UISlider *slider;
-
+@property (nonatomic, strong) UISlider *slider;
 
 @end
 
