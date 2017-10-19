@@ -13,6 +13,7 @@
 		0CDA63511F96C4F8007CD6D3 /* REMMapTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDA63451F96C4F8007CD6D3 /* REMMapTabView.m */; };
 		0CDA63521F96C4F8007CD6D3 /* REMInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDA63481F96C4F8007CD6D3 /* REMInfoViewController.m */; };
 		0CDA63531F96C4F8007CD6D3 /* REMSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDA634C1F96C4F8007CD6D3 /* REMSetViewController.m */; };
+		BB0380001F97864B00FE3615 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB037FFF1F97864B00FE3615 /* CoreLocation.framework */; };
 		BB4F9FE01F87B6E400108C3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F9FDF1F87B6E400108C3C /* AppDelegate.m */; };
 		BB4F9FE91F87B6E400108C3C /* RememberAll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB4F9FE71F87B6E400108C3C /* RememberAll.xcdatamodeld */; };
 		BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEA1F87B6E400108C3C /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		0CDA634D1F96C4F8007CD6D3 /* REMSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMSetViewController.h; sourceTree = "<group>"; };
 		552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RememberAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		591F4BE98252A2106B9DF07F /* Pods-RememberAll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.release.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.release.xcconfig"; sourceTree = "<group>"; };
+		BB037FFF1F97864B00FE3615 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BB4F9FDB1F87B6E400108C3C /* RememberAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4F9FDE1F87B6E400108C3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB4F9FDF1F87B6E400108C3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0380001F97864B00FE3615 /* CoreLocation.framework in Frameworks */,
 				BBDDC8AC1F90B46B00AA828B /* QuartzCore.framework in Frameworks */,
 				D3E773F92B9A6BB6E8E7ECF5 /* Pods_RememberAll.framework in Frameworks */,
 			);
@@ -84,8 +87,8 @@
 		0CDA63371F96C4F8007CD6D3 /* REMTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				0CDA63381F96C4F8007CD6D3 /* REMTabBarController.m */,
 				0CDA63391F96C4F8007CD6D3 /* REMTabBarController.h */,
+				0CDA63381F96C4F8007CD6D3 /* REMTabBarController.m */,
 			);
 			path = REMTabBarController;
 			sourceTree = "<group>";
@@ -156,8 +159,8 @@
 		0CDA63471F96C4F8007CD6D3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0CDA63481F96C4F8007CD6D3 /* REMInfoViewController.m */,
 				0CDA63491F96C4F8007CD6D3 /* REMInfoViewController.h */,
+				0CDA63481F96C4F8007CD6D3 /* REMInfoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 		C0E0EF23C16977B75744C161 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB037FFF1F97864B00FE3615 /* CoreLocation.framework */,
 				BBDDC8AB1F90B46B00AA828B /* QuartzCore.framework */,
 				552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */,
 			);

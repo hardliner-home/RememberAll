@@ -7,8 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface REMMapViewController : UIViewController
+
+
+@interface REMMapViewController : UIViewController {
+    CLLocationManager *locationManager;
+    UISlider *slider;
+}
+
+@property(nonatomic,retain) UISlider *slider;
+
 
 @end
 
