@@ -2,14 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow show your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow show your location</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>NSLocationAlwaysWhenInUseUsageDescription</key>
-	<string>&lt;key&gt;NSLocationAlwaysAndWhenInUseUsageDescription&lt;/key&gt;
-    &lt;string&gt;This app needs your current location&lt;/string&gt;</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>&lt;key&gt;NSLocationWhenInUseUsageDescription&lt;/key&gt;
-&lt;string&gt;This application requires location services to work&lt;/string&gt;</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -47,12 +45,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>This application requires location services to work</string>
-    
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>This application requires location services to work</string>
-    
 </dict>
 </plist>

@@ -33,7 +33,7 @@
                                                                 tag:1];
     
     REMListViewController *listController = [[REMListViewController alloc] init];
-    listController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Listing"
+    listController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"List"
                                                               image:[UIImage imageNamed:@"list.png"]
                                                                 tag:2];
     

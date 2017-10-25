@@ -19,9 +19,27 @@
 		BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEA1F87B6E400108C3C /* Assets.xcassets */; };
 		BB4F9FEE1F87B6E400108C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4F9FEC1F87B6E400108C3C /* LaunchScreen.storyboard */; };
 		BB4F9FF11F87B6E400108C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F9FF01F87B6E400108C3C /* main.m */; };
+		BB9803AC1FA0CCA0000A934C /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = BB98039F1FA0CC9E000A934C /* Headers */; };
+		BB9803AD1FA0CCA0000A934C /* Local Podspecs in Resources */ = {isa = PBXBuildFile; fileRef = BB9803A01FA0CC9F000A934C /* Local Podspecs */; };
+		BB9803AE1FA0CCA0000A934C /* GoogleMaps in Resources */ = {isa = PBXBuildFile; fileRef = BB9803A11FA0CC9F000A934C /* GoogleMaps */; };
+		BB9803AF1FA0CCA0000A934C /* Target Support Files in Resources */ = {isa = PBXBuildFile; fileRef = BB9803A21FA0CC9F000A934C /* Target Support Files */; };
+		BB9803B01FA0CCA0000A934C /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = BB9803A31FA0CC9F000A934C /* Manifest.lock */; };
+		BB9803B11FA0CCA0000A934C /* GooglePlaces in Resources */ = {isa = PBXBuildFile; fileRef = BB9803A41FA0CC9F000A934C /* GooglePlaces */; };
+		BB9803B21FA0CCA0000A934C /* GooglePlacePicker in Resources */ = {isa = PBXBuildFile; fileRef = BB9803AB1FA0CC9F000A934C /* GooglePlacePicker */; };
+		BB9803B41FA0D38B000A934C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9803B31FA0D38B000A934C /* Default-568h@2x.png */; };
 		BBDDC8AC1F90B46B00AA828B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDDC8AB1F90B46B00AA828B /* QuartzCore.framework */; };
 		D3E773F92B9A6BB6E8E7ECF5 /* Pods_RememberAll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552F3D6EFFD28C31C9BDFCF7 /* Pods_RememberAll.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB9803A91FA0CC9F000A934C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9803A51FA0CC9F000A934C /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A80319D8AA3AB91833BA1F62CE6D5AAD;
+			remoteInfo = "Pods-RememberAll";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0CDA63381F96C4F8007CD6D3 /* REMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMTabBarController.m; sourceTree = "<group>"; };
@@ -47,6 +65,15 @@
 		BB4F9FED1F87B6E400108C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB4F9FEF1F87B6E400108C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB4F9FF01F87B6E400108C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB98039F1FA0CC9E000A934C /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = Pods/Headers; sourceTree = "<group>"; };
+		BB9803A01FA0CC9F000A934C /* Local Podspecs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Local Podspecs"; path = "Pods/Local Podspecs"; sourceTree = "<group>"; };
+		BB9803A11FA0CC9F000A934C /* GoogleMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GoogleMaps; path = Pods/GoogleMaps; sourceTree = "<group>"; };
+		BB9803A21FA0CC9F000A934C /* Target Support Files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Target Support Files"; path = "Pods/Target Support Files"; sourceTree = "<group>"; };
+		BB9803A31FA0CC9F000A934C /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Manifest.lock; path = Pods/Manifest.lock; sourceTree = "<group>"; };
+		BB9803A41FA0CC9F000A934C /* GooglePlaces */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GooglePlaces; path = Pods/GooglePlaces; sourceTree = "<group>"; };
+		BB9803A51FA0CC9F000A934C /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		BB9803AB1FA0CC9F000A934C /* GooglePlacePicker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GooglePlacePicker; path = Pods/GooglePlacePicker; sourceTree = "<group>"; };
+		BB9803B31FA0D38B000A934C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BBDDC8AB1F90B46B00AA828B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C74AF14CC42D12A494AB2480 /* Pods-RememberAll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberAll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RememberAll/Pods-RememberAll.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,6 +223,14 @@
 		33FE887654E35D8D84E2BA7A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				BB9803A11FA0CC9F000A934C /* GoogleMaps */,
+				BB9803AB1FA0CC9F000A934C /* GooglePlacePicker */,
+				BB9803A41FA0CC9F000A934C /* GooglePlaces */,
+				BB98039F1FA0CC9E000A934C /* Headers */,
+				BB9803A01FA0CC9F000A934C /* Local Podspecs */,
+				BB9803A31FA0CC9F000A934C /* Manifest.lock */,
+				BB9803A51FA0CC9F000A934C /* Pods.xcodeproj */,
+				BB9803A21FA0CC9F000A934C /* Target Support Files */,
 				C74AF14CC42D12A494AB2480 /* Pods-RememberAll.debug.xcconfig */,
 				591F4BE98252A2106B9DF07F /* Pods-RememberAll.release.xcconfig */,
 			);
@@ -205,6 +240,7 @@
 		BB4F9FD21F87B6E400108C3C = {
 			isa = PBXGroup;
 			children = (
+				BB9803B31FA0D38B000A934C /* Default-568h@2x.png */,
 				BB4F9FDD1F87B6E400108C3C /* RememberAll */,
 				C0E0EF23C16977B75744C161 /* Frameworks */,
 				BB4F9FDC1F87B6E400108C3C /* Products */,
@@ -228,6 +264,14 @@
 				0CDA63361F96C3A1007CD6D3 /* Supporting Files */,
 			);
 			path = RememberAll;
+			sourceTree = "<group>";
+		};
+		BB9803A61FA0CC9F000A934C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9803AA1FA0CC9F000A934C /* Pods_RememberAll.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C0E0EF23C16977B75744C161 /* Frameworks */ = {
@@ -290,6 +334,12 @@
 			mainGroup = BB4F9FD21F87B6E400108C3C;
 			productRefGroup = BB4F9FDC1F87B6E400108C3C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BB9803A61FA0CC9F000A934C /* Products */;
+					ProjectRef = BB9803A51FA0CC9F000A934C /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BB4F9FDA1F87B6E400108C3C /* RememberAll */,
@@ -297,12 +347,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		BB9803AA1FA0CC9F000A934C /* Pods_RememberAll.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_RememberAll.framework;
+			remoteRef = BB9803A91FA0CC9F000A934C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		BB4F9FD91F87B6E400108C3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9803AC1FA0CCA0000A934C /* Headers in Resources */,
+				BB9803B11FA0CCA0000A934C /* GooglePlaces in Resources */,
+				BB9803B21FA0CCA0000A934C /* GooglePlacePicker in Resources */,
+				BB9803B41FA0D38B000A934C /* Default-568h@2x.png in Resources */,
+				BB9803AF1FA0CCA0000A934C /* Target Support Files in Resources */,
 				BB4F9FEE1F87B6E400108C3C /* LaunchScreen.storyboard in Resources */,
+				BB9803AE1FA0CCA0000A934C /* GoogleMaps in Resources */,
+				BB9803B01FA0CCA0000A934C /* Manifest.lock in Resources */,
+				BB9803AD1FA0CCA0000A934C /* Local Podspecs in Resources */,
 				BB4F9FEB1F87B6E400108C3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

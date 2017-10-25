@@ -9,13 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-
-
-@interface REMMapViewController : UIViewController {
-    CLLocationManager *_locationManager;
+@interface REMMapViewController : UIViewController <CLLocationManagerDelegate> {
+    CLLocationManager *locationManager;
 }
 
+//-(void) startLocation;
+
 @property (nonatomic, strong) UISlider *slider;
+@property(assign, nonatomic) CLLocationDistance distanceFilter;
+@property(assign, nonatomic) CLLocationAccuracy desiredAccuracy;
 
 @end
 
