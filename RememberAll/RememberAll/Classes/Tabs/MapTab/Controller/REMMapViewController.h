@@ -13,7 +13,8 @@
     CLLocationManager *locationManager;
 }
 
-//-(void) startLocation;
+-(void) startLocation;
+-(void) didUpdateLocations;
 
 @property (nonatomic, strong) UISlider *slider;
 @property(assign, nonatomic) CLLocationDistance distanceFilter;

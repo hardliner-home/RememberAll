@@ -37,6 +37,9 @@
     [locationManager startUpdatingLocation];
     [locationManager startMonitoringSignificantLocationChanges];
     
+    [locationManager startLocation];
+    [locationManager didUpdateLocations];
+    
     self.view.mapView.myLocationEnabled = YES;
     
     [self.view.mapView.settings setAllGesturesEnabled:YES];
