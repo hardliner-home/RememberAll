@@ -9,16 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
+@import GoogleMaps;
+@import GooglePlaces;
+@import GooglePlacePicker;
+
 @interface REMMapViewController : UIViewController <CLLocationManagerDelegate> {
     CLLocationManager *locationManager;
 }
 
--(void) startLocation;
--(void) didUpdateLocations;
-
 @property (nonatomic, strong) UISlider *slider;
-@property(assign, nonatomic) CLLocationDistance distanceFilter;
-@property(assign, nonatomic) CLLocationAccuracy desiredAccuracy;
 
 @end
 

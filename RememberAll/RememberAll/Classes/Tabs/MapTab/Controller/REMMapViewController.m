@@ -30,19 +30,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [locationManager requestWhenInUseAuthorization];
-    [locationManager requestAlwaysAuthorization];
-    locationManager.delegate = self;
-    
-    [locationManager startUpdatingLocation];
-    [locationManager startMonitoringSignificantLocationChanges];
-    
-    [locationManager startLocation];
-    [locationManager didUpdateLocations];
-    
     self.view.mapView.myLocationEnabled = YES;
     
     [self.view.mapView.settings setAllGesturesEnabled:YES];
+    
+    [self startLocation];
+  //  [self locationManager:<#(nonnull CLLocationManager *)#> didUpdateLocations:<#(nonnull NSArray<CLLocation *> *)#>];
     
     
     CGRect frame = CGRectMake(70.0, 480.0, 200.0, 40.0);
@@ -61,35 +54,28 @@
     [self.view.mapView animateToZoom:self.slider.value];
 }
 
-- (void)startLocation {
-    // проверяем доступность службы геолокации
-    if([CLLocationManager locationServicesEnabled]){
-        if(!locationManager)
-            locationManager = [[CLLocationManager alloc] init];
-        locationManager.delegate = self;
-        // задаем наилучшую точность и дистанцию фильтра в 100 метров
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest;
-        locationManager.distanceFilter = 100;
-        // данный селектор поддерживается только начиная с iOS 8, и его вызов необходим для запуска
-        if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
-            [locationManager requestWhenInUseAuthorization];
-        }
-        [locationManager startUpdatingLocation];
-    }
-}
-
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
     CLLocation* location = [locations lastObject];
-    // получаем время определения местоположения
     NSDate* eventDate = location.timestamp;
-    // получаем временной интервал с последнего определения до текущего момента
     NSTimeInterval howRecent = [eventDate timeIntervalSinceNow];
     if (fabs(howRecent) < 15.0) {
-        // Если событие недавнее (последние 15 секунд), что-то делаем с ним.
         NSLog(@"latitude %+.6f, longitude %+.6f\n",
               location.coordinate.latitude,
               location.coordinate.longitude);
     }
 }
 
+- (void)startLocation {
+    if([CLLocationManager locationServicesEnabled]){
+        if(!locationManager)
+            locationManager = [[CLLocationManager alloc] init];
+        locationManager.delegate = self;
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+        locationManager.distanceFilter = 100;
+        if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+            [locationManager requestWhenInUseAuthorization];
+        }
+        [locationManager startUpdatingLocation];
+    }
+}
 @end
