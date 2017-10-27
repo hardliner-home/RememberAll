@@ -35,8 +35,6 @@
     [self.view.mapView.settings setAllGesturesEnabled:YES];
     
     [self startLocation];
-  //  [self locationManager:<#(nonnull CLLocationManager *)#> didUpdateLocations:<#(nonnull NSArray<CLLocation *> *)#>];
-    
     
     CGRect frame = CGRectMake(70.0, 480.0, 200.0, 40.0);
     self.slider = [[UISlider alloc] initWithFrame:frame];
