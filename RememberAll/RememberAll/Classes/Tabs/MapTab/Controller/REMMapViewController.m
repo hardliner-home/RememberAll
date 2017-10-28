@@ -25,6 +25,7 @@
                                                                  zoom:16.f];
     
     self.view = [[REMMapTabView alloc] initWithCamera:camera];
+    
 }
 
 - (void)viewDidLoad {
