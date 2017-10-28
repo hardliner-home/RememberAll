@@ -51,7 +51,7 @@
     
     [self.view.mapView animateToZoom:self.slider.value];
 }
-
+     
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
     CLLocation* location = [locations lastObject];
     NSDate* eventDate = location.timestamp;
@@ -75,5 +75,6 @@
         }
         [locationManager startUpdatingLocation];
     }
+    
 }
 @end
