@@ -24,6 +24,7 @@
                                                             longitude:38.89
                                                                  zoom:16.f];
     
+    
     self.view = [[REMMapTabView alloc] initWithCamera:camera];
     
 }

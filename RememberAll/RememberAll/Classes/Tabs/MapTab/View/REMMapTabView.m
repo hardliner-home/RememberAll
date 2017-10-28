@@ -16,8 +16,6 @@
         _mapView = [GMSMapView mapWithFrame:CGRectZero
                                      camera:camera];
         
-        _mapView.settings.myLocationButton = YES;
-        
         [self addSubview:self.mapView];
     }
     
